@@ -33,7 +33,7 @@
   </parent>
 
   <artifactId>jsoup</artifactId>
-  <version>1.10.3-SNAPSHOT</version>
+  <version>1.10.3</version>
   <packaging>hpi</packaging>
 
   <name>JSoup</name>
@@ -62,6 +62,7 @@
     <connection>scm:git:git://github.com/jenkinsci/jsoup-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/jsoup-plugin.git</developerConnection>
     <url>http://github.com/jenkinsci/jsoup-plugin</url>
+    <tag>jsoup-1.10.3</tag>
   </scm>
 
   <properties>
