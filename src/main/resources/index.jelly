@@ -1,4 +1,4 @@
 <?jelly escape-by-default='true'?>
 <div>
-This plugin provides a shared dependency on the jsoup library so that other plugins can co-operate when using this library.
+    This plugin provides the <a href="https://jsoup.org/">jsoup</a> APIs (v${revision}) for other plugins.
 </div>
