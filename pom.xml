@@ -34,7 +34,7 @@
   </parent>
 
   <artifactId>jsoup</artifactId>
-  <version>1.10.4-SNAPSHOT</version>
+  <version>${revision}${changelist}</version>
   <packaging>hpi</packaging>
 
   <name>JSoup</name>
@@ -60,13 +60,16 @@
   </developers>
 
   <scm>
-    <connection>scm:git:https://github.com/jenkinsci/jsoup-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/jsoup-plugin.git</developerConnection>
-    <url>http://github.com/jenkinsci/jsoup-plugin</url>
-    <tag>HEAD</tag>
+    <connection>scm:git:https://github.com/${gitHubRepo}.git</connection>
+    <developerConnection>scm:git:git@github.com:${gitHubRepo}.git</developerConnection>
+    <url>http://github.com/${gitHubRepo}</url>
+    <tag>${scmTag}</tag>
   </scm>
 
   <properties>
+    <revision>1.10.4</revision>
+    <changelist>-SNAPSHOT</changelist>
+    <gitHubRepo>jenkinsci/jsoup-plugin</gitHubRepo>
     <jenkins.version>2.346.3</jenkins.version>
   </properties>
   <repositories>
