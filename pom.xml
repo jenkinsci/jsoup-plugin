@@ -55,7 +55,7 @@
   </scm>
 
   <properties>
-    <revision>1.18.3</revision>
+    <revision>1.19.1</revision>
     <changelist>999999-SNAPSHOT</changelist>
     <gitHubRepo>jenkinsci/jsoup-plugin</gitHubRepo>
     <jenkins.version>2.462.3</jenkins.version>
