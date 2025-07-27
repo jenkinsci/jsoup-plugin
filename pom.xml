@@ -58,7 +58,7 @@
     <revision>1.21.1</revision>
     <changelist>999999-SNAPSHOT</changelist>
     <gitHubRepo>jenkinsci/jsoup-plugin</gitHubRepo>
-    <jenkins.version>2.479.3</jenkins.version>
+    <jenkins.version>2.492.3</jenkins.version>
     <spotless.check.skip>false</spotless.check.skip>
   </properties>
 
