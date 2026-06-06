@@ -64,6 +64,7 @@
     <hpi.bundledArtifacts>jsoup</hpi.bundledArtifacts>
     <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
     <ban-commons-lang-2.skip>false</ban-commons-lang-2.skip>
+    <banObsoleteDependencyOverrides.skip>false</banObsoleteDependencyOverrides.skip>
   </properties>
 
   <dependencies>
